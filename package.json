@@ -4,9 +4,13 @@
   "description": "Dave Raycast Tools",
   "main": "index.js",
   "scripts": {
-    "appendToClipboard": "node src/commands/appendToClipboard.ts"
+    "appendToClipboard": "node src/commands/appendToClipboard.ts",
+    "publish": "raycast publish"
   },
   "dependencies": {
     "@raycast/api": "^1.0.0"
+  },
+  "devDependencies": {
+    "@raycast/cli": "^1.0.0"
   }
 }
