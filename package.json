@@ -1,0 +1,12 @@
+{
+  "name": "dave-raycast-tools",
+  "version": "1.0.0",
+  "description": "Dave Raycast Tools",
+  "main": "index.js",
+  "scripts": {
+    "appendToClipboard": "node src/commands/appendToClipboard.ts"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.0.0"
+  }
+}
